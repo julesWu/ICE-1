@@ -6,7 +6,7 @@
 	.top-nav ul li {
 		display:inline-block;
 		margin: 0 auto;
-		background-color: purple;
+		padding-top: 15px;
 	}
 	.logo {
 		display:block;
@@ -47,13 +47,13 @@
 	.top-nav ul li {
 		display:inline-block;
 		margin: 0 auto;
-		background-color: purple;
 	}
 	.logo {
 		display:block;
 		width: 8%;
 		height: 4rem;
 		text-align: left;
+		float: left;
 	}
 	img {
 		display:block;
