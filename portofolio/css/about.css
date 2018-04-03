@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Roboto', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  flex-grow: 100;
+  background-color: #333;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background: url("../img/roses.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    margin-bottom: 1rem;
+}
+.jumbotron h2 {
+    font-size: 4rem;
+    font-family:'Montserrat','Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+	text-align: center;
+}
+
+.hobbies .about-content {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.75rem;
+	font-weight: bold
+	line-height: 150%
+}
+
+.about-me {
+	background-color: #fb9692;
+	padding: 0px 20px 10px 40px;
+	width: 95%;
+	line-height: 170%
+	margin-bottom: 5%;
+}
+.block {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	margin: 5%;
+}
+
+.hobbies {
+	background-color: #fab297;
+	padding: 0px 20px 10px 40px;
+	width: 95%;
+	line-height: 170%
+}
+
+.hobbies .videos {
+	margin: 0 auto;
+	width: 50%;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
