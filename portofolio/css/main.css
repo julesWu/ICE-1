@@ -116,6 +116,10 @@ body {
     margin-right: auto;
 }
 
+#current {
+  background-color: #91c8ff;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
