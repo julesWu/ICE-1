@@ -3,8 +3,9 @@
 <head>
   <title> Julia's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "css/main.css">
   <link rel = "stylesheet" href = "css/contact.css">
-  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Montserrat|Raleway|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One%7CMontserrat%7CRaleway%7CRoboto" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -16,13 +17,12 @@
   </header>
   <nav>
     <div class="nav-flex">
-      <div class="nav-flex">
         <div class="topnav" id="myTopnav">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="gallery.html">Gallery</a>
           <a href="contact.html">Contact</a>
-      </div>
+        </div>
     </div>
   </nav>
 
@@ -32,13 +32,13 @@
     <form action="https://formspree.io/jwu32196@gmail.com" method="POST">
       
       <label for="comName"> Name: </label>
-      <input type="text" name="name">
+      <input type="text" id='comName' name="name">
 
       <label for="email">Email: </label> 
-      <input type="text" name="contact_email">
+      <input type="text" id='email' name="contact_email">
       <br>
       <label for="message">Message: </label>
-      <input type="text" name="input" style="height:200px;">
+      <input type="text" id='message' name="input" style="height:200px;">
 
       <input type="submit" name="send" value="Send">
   </form>
@@ -49,3 +49,5 @@
   <div class="placeholder-100pct">&nbsp;</div>
 
   <div class='footer'> Julia Wu &copy;. 2018. shuyue@umich.edu. </div>
+  </body>
+  </html>
