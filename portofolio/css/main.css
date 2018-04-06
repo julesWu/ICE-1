@@ -32,8 +32,8 @@ body {
 
 .text {
   color: white;
-  font-size: 20px;
-  font-family:'Roboto', sans-serif;
+  font-size: 1.75rem;
+  font-family:'Montserrat', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
