@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Julia's Exam Part 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One%7CMontserrat%7CRaleway%7CRoboto" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  	$(document).ready(() => {
+      $('.b1').on('click', () => {
+        $('.show').show();
+        $('.a').show();
+      });
+    });
+
+  	$(document).ready(() => {
+      $('.b2').on('click', () => {
+        $('.hide').hide();
+        $('.a').hide();
+      });
+    });
+  </script>
+ </head>
+ <body>
+ 	<h1> Julia Wu Exam Part 2 </h1>
+ 	<div class=flex-container>
+    	<div class='a'>
+      		<img class="show hide" src="images/examPic.JPG" alt="exam pic 1">
+    	</div>
+    	<div class="b">
+      		<img src="images/UMSI-logo.jpg" alt="UMSI-logo" >
+    	</div>
+  	</div>
+  	<button class="b1" type="button">Show Image.</button>
+  	<button class="b2" type="button">Hide Image.</button>
+ </body>
+ </html>

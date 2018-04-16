@@ -1,0 +1,116 @@
+body {
+    background-image: url("../images/light-veneer.png");
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: row wrap;
+    flex-direction: row
+    justify-content: center;
+}
+
+.a{
+    border: 5px solid blue;
+    padding: 5%;
+    height: 316px;
+    width:50%;
+}
+.b{
+    border: 5px solid blue;
+    padding: 5%;
+    height: 316px;
+    width: 50%;
+}
+
+.a img {
+    display:block;
+    margin: auto;
+}
+
+.b img {
+    display:block;
+    margin: auto;
+    height: 98%;
+}
+
+@media screen and (max-width: 850px) {
+    .a{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 300px;
+        width:50%;
+    }
+    .b{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 300px;
+        width: 50%;
+    }
+    .a img {
+        display:block;
+        margin: auto;
+        width: 90%;
+    }   
+
+    .b img {
+        display:block;
+        margin: auto;
+        width: 90%;
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .a{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 200px;
+        width:50%;
+    }
+    .b{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 200px;
+        width: 50%;
+    }
+    .a img {
+        display:block;
+        margin: auto;
+        width: 90%;
+    }   
+
+    .b img {
+        display:block;
+        margin: auto;
+        width: 90%;
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .a{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 150px;
+        width:50%;
+    }
+    .b{
+        border: 5px solid blue;
+        padding: 5%;
+        height: 150px;
+        width: 50%;
+    }
+    .a img {
+        display:block;
+        margin: auto;
+        width: 90%;
+    }   
+
+    .b img {
+        display:block;
+        margin: auto;
+        width: 90%;
+        height: 85%;
+    }
+}
+
